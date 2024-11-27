@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+header .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+header .title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+/* Navigation Styles */
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background: #575757;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 10px;
+}
+
+.education-item, .experience-item {
+    margin-bottom: 30px;
+}
+
+.education-item h3, .experience-item h3 {
+    font-size: 24px;
+    color: #2980b9;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.education-item h3 span, .experience-item h3 span {
+    font-size: 18px;
+    color: #555;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.education-item p, .experience-item p {
+    font-size: 18px;
+    margin: 5px 0 10px;
+}
+
+.education-item ul, .experience-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.skills-list h3 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #2980b9;
+}
+
+.skills-list p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.skills-list ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#interests p {
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    header .title {
+        font-size: 20px;
+    }
+
+    nav ul li a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    section h2 {
+        font-size: 28px;
+    }
+
+    .education-item h3, .experience-item h3 {
+        font-size: 20px;
+    }
+
+    .education-item h3 span, .experience-item h3 span {
+        font-size: 16px;
+    }
+}

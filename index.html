@@ -2,12 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Oussama Guelfaa - Personal Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oussama Guelfaa</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Your Name</h1>
-    <p>Welcome to my personal website!</p>
-    <p><a href="https://www.linkedin.com/in/oussama-guelfaa-256b9a232/">LinkedIn Profile</a></p>
+
+    <header>
+        <div class="container">
+            <img src="profile-picture.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Oussama Guelfaa</h1>
+            <p class="title">Master's Degree Student in Computer Science</p>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +33 7 44 88 58 07</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:guelfaao@gmail.com">guelfaao@gmail.com</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/oussama-guelfaa-256b9a232/">LinkedIn Profile</a></p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/Oussama-Guelfaa">GitHub Profile</a></p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul class="container">
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills & Certificates</a></li>
+            <li><a href="#interests">Interests</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>École Nationale Supérieure des Mines de Saint-Étienne <span>2023 – 2026</span></h3>
+                <p>Master’s Degree in Engineering - Saint-Étienne, France</p>
+                <ul>
+                    <li>Major in Computer Science: Technical Foundation of Computer Science, Software Engineering, Data Interoperability and Semantics, Cloud and Edge Infrastructures, Cybersecurity, Operational Research.</li>
+                </ul>
+            </div>
+            <div class="education-item">
+                <h3>Jean Monnet University <span>2021 – 2023</span></h3>
+                <p>Bachelor’s Degree in Mathematics - Saint-Étienne, France</p>
+                <ul>
+                    <li>Algebra, Integration and Measure, Topology, Differential Calculus, Differential Equations, Complex Analysis, Probability.</li>
+                </ul>
+            </div>
+            <div class="education-item">
+                <h3>Classes Préparatoires <span>2019 – 2021</span></h3>
+                <p>Khouribga, Morocco</p>
+                <ul>
+                    <li>Intensive preparation for highly selective entrance exams to French Grandes Écoles d’Ingénieurs.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <h3>Computer Science Project - École des Mines de Saint-Étienne <span>2024</span></h3>
+                <ul>
+                    <li>Worked on projects involving database management, software optimization, and system design.</li>
+                    <li>Implemented solutions using programming languages like Python, Java, and C++.</li>
+                    <li>Developed an automated Forex trading algorithm analyzing financial data in real time.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Operator Internship - OCP Group <span>2023</span></h3>
+                <p>International Phosphate Producer</p>
+                <ul>
+                    <li>Assisted in phosphate extraction and preparation within a 15-member team.</li>
+                    <li>Recorded data about circulating phosphate load and contributed to minimizing clogging issues.</li>
+                    <li>Performed data cleaning on extensive datasets, enhancing data quality for strategic analysis.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Citizen Project - Sury Sporting Club <span>2022</span></h3>
+                <p>Football Club</p>
+                <ul>
+                    <li>Managed workgroups, overseeing the administrative team, and improving project organization.</li>
+                    <li>Redesigned the club’s website using WordPress to enhance user engagement.</li>
+                    <li>Organized an awareness day focused on disability inclusion, boosting community outreach.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Certificates</h2>
+            <div class="skills-list">
+                <h3>Programming Languages</h3>
+                <p>Python, SQL, C/C++, R, Java, VBA, Linux, AWS, Azure, JavaScript</p>
+                <h3>Languages</h3>
+                <p>Arabic (C2), English (C1), French (C1), Spanish (A2)</p>
+                <h3>Certificates</h3>
+                <ul>
+                    <li>Microsoft Certified: Azure Fundamentals</li>
+                    <li>Neural Networks and Deep Learning</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="interests">
+            <h2>Interests</h2>
+            <p>Tennis, Football, Moroccan Cuisine, Commerce, Politics</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Oussama Guelfaa. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
